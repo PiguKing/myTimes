@@ -72,27 +72,77 @@ nav span a {
   border: 1px solid black;
 }
 
-#secondary-story {
+.secondary-story {
   border: 1px solid black;
 }
 
 .box {
   border: 1px solid black;
   width: 100%;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
-#box1 p {
-  background-image: url("./resources/images/wine.png");
+.story-image {
+  height: 300px;
+}
+
+.story-image p{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
   height: 100%;
-  width: 100%;
+}
+
+#main-story .story-image p{
+  font-size: 40px;
+}
+
+#box1 {
+  display: flex;
+  background-image: url("../images/wine.png");
+}
+
+#box2{
+}
+
+#box3{
+  margin-bottom: 15px;
+}
+
+#box4 {
+  display: flex;
+  background-image: url("../images/fall-season.png");
+}
+
+#box5 {
+  margin-bottom: 15px;
+}
+
+#box6 {
+  display: flex;
+  background-image: url("../images/hipster-camera.png");
+}
+
+#box7 {
+  margin-bottom: 15px;
+}
+
+#box8 {
+  display: flex;
+  background-image: url("../images/cat-ceo.png");
+}
+
+#box9 {
+}
+
+#box10{
+}
+#box1 p {
   margin-top: 0;
   margin-bottom: 0;
-}
-
-#box2 p {
-}
-
-#box3 p {
 }
 
 #box4 p {
@@ -100,11 +150,11 @@ nav span a {
   margin-bottom: 0;
 }
 
-#box5 p {
-
-}
-
 #box6 p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+/* *****NOTES*****
+  1. The main page does not seem to be flex, since the columns don't seem like it's growing or shrinking as we increase or decrease the display size of our browser
+  */
