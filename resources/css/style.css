@@ -1,0 +1,110 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: mediumaquamarine;
+}
+
+.images-name {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.images-name img {
+  margin-right: 10px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 15px;
+  height: 100%;
+  width: 100%;
+}
+
+nav span a {
+  color: black;
+  margin: 0 20px;
+}
+
+.main-container {
+  border: 1px solid black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  border: 1px solid black;
+  margin-top: 40px;
+}
+
+#col1 {
+  width: 630px;
+}
+
+#col2 {
+  width: 300px;
+}
+
+#col3 {
+  width: 240px;
+  margin-right: 45px;
+  overflow: hidden;
+}
+
+#main-story {
+  border: 1px solid black;
+}
+
+#secondary-story {
+  border: 1px solid black;
+}
+
+.box {
+  border: 1px solid black;
+  width: 100%;
+}
+
+#box1 p {
+  background-image: url("./resources/images/wine.png");
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#box2 p {
+}
+
+#box3 p {
+}
+
+#box4 p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#box5 p {
+
+}
+
+#box6 p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
