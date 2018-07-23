@@ -45,7 +45,7 @@ nav span a {
 
 .main-container {
   border: 1px solid black;
-  margin: 0 auto;
+  margin: 40px auto 0 auto;
   display: inline-flex;
 }
 
