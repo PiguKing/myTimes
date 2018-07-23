@@ -1,6 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 header {
@@ -27,7 +29,7 @@ header {
   margin-right: 10px;
 }
 
-.main-nav {
+.main-nav{
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -43,15 +45,14 @@ nav span a {
 
 .main-container {
   border: 1px solid black;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+  margin: 0 auto;
+  display: inline-flex;
 }
 
 .col {
   border: 1px solid black;
-  margin-top: 40px;
+  margin-right: 20px;
+  flex-shrink: 0;
 }
 
 #col1 {
@@ -74,6 +75,7 @@ nav span a {
 
 .secondary-story {
   border: 1px solid black;
+  display: flex;
 }
 
 .box {
@@ -115,6 +117,7 @@ nav span a {
 #box4 {
   display: flex;
   background-image: url("../images/fall-season.png");
+  background-repeat: no-repeat;
 }
 
 #box5 {
@@ -124,6 +127,7 @@ nav span a {
 #box6 {
   display: flex;
   background-image: url("../images/hipster-camera.png");
+  background-repeat: no-repeat;
 }
 
 #box7 {
